@@ -8,7 +8,7 @@ let currentColor = document.getElementById("currentColor");
 let bulb = document.getElementById("bulb");
 let online = window.navigator.onLine;
 
-class App {
+class Application {
   /**
    * Initalize the page and websocket connection
    */
@@ -62,4 +62,6 @@ class App {
   }
 }
 
-let application = new App();
+let application = new Application();
+
+export default Application;
