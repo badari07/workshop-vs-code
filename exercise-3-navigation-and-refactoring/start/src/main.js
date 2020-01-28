@@ -1,3 +1,3 @@
-import App from "./app";
+import Application from "./app";
 
-let app = new App();
+let app = new Application();
